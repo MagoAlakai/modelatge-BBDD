@@ -50,8 +50,8 @@ CREATE TABLE IF NOT EXISTS `dirección` (
 -- Volcando estructura para tabla cul d'ampolla.empleados
 CREATE TABLE IF NOT EXISTS `empleados` (
   `empleado_id` int(11) NOT NULL AUTO_INCREMENT,
-  `empleado_nombre` int(11) DEFAULT NULL,
-  `empleado_apellido` int(11) DEFAULT NULL,
+  `empleado_nombre` varchar(45) DEFAULT NULL,
+  `empleado_apellido` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`empleado_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4;
 
